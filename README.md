@@ -24,8 +24,8 @@ A REST API built with Spring Boot, containerized with Docker, and automated with
 
 ### Option 1 — Pull from Docker Hub (easiest, no code needed)
 ```bash
-docker pull yoyounik/mystudentapp:latest
-docker run -p 8080:8080 yoyounik/mystudentapp:latest
+docker pull nikstatus07/mystudentapp:latest
+docker run -p 8080:8080 nikstatus07/mystudentapp:latest
 ```
 
 ### Option 2 — Run with Docker after cloning
