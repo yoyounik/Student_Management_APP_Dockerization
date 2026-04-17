@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: nikstatus07/mystudentapp
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30008
+
+containerPort: 8080
